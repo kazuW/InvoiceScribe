@@ -6,11 +6,11 @@ const WebSocket = require('ws');
 const fs = require('fs');
 
 const REST_HOST = 'localhost:8080'
-const MACAROON_PATH = 'C:/Users/quick/AppData/Local/Lnd/data/chain/bitcoin/mainnet/admin.macaroon'
+const MACAROON_PATH = 'マカルーンのパス/admin.macaroon'
 
 const https = require("https")
 
-const accessToken = "zMZwi6Vb1zKUOUCqeH1mn2oV0Ztn2VEZrEIKU67wH9O"
+const accessToken = "LINEのアクセストークン"
 
 const options = {
     hostname: "notify-api.line.me",
